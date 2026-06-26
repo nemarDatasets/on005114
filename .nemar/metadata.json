@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "EEG: DPX Cog Ctl Task in Acute Mild TBI",
+  "description": "This dataset comprises electroencephalography (EEG) recordings from a Dot Probe Continuous Performance Task administered to control subjects and individuals with sub-acute mild traumatic brain injury (mTBI). Participants were assessed at multiple timepoints: within 3-14 days post-injury (Session 1), approximately 2 months post-injury (Session 2), and approximately 4 months post-injury (Session 3). The dataset includes behavioral and electrophysiological measures of attention and cognitive control during the task.",
+  "methods_description": "EEG data were collected during a Dot Probe Continuous Performance Task using Matlab programming. Data collection occurred between 2016-2018 at the Center for Brain Recovery and Repair at the UNM Health Sciences Center. Participants included control subjects and individuals with sub-acute mild TBI, assessed at three sessions spanning approximately 4 months.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -9,12 +11,27 @@
       "orcid": "0000-0003-2428-3562"
     }
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds005114.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "mild traumatic brain injury"
+    },
+    {
+      "term": "attention"
+    },
+    {
+      "term": "cognitive control"
+    },
+    {
+      "term": "continuous performance task"
+    },
+    {
+      "term": "event-related potentials"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on005114",
       "identifier_type": "URL",
@@ -34,14 +51,19 @@
       "identifier": "10.1016/j.neuropsychologia.2019.107125",
       "identifier_type": "DOI",
       "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005114.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "60.3 GB (520 files)"
   ],
   "formats": [
     ".fdt",
@@ -55,35 +77,8 @@
     ".set",
     ".tsv",
     ".txt",
-    ".xlsx"
+    ".xlsx",
+    ".yml"
   ],
-  "description": "This dataset comprises electroencephalography (EEG) recordings from a Dot Probe Continuous Performance Task administered to healthy controls and individuals with sub-acute mild traumatic brain injury (mTBI). Participants were assessed at multiple timepoints: within 3-14 days post-injury (Session 1), approximately 2 months (Session 2), and approximately 4 months (Session 3) following initial injury. The study investigates cognitive control mechanisms and attention processes during the acute and sub-acute phases of mTBI recovery. Note: Significant subject attrition occurred across timepoints. MRI data collection was planned but has not yet been uploaded.",
-  "methods_description": "EEG data were collected during a Dot Probe Continuous Performance Task implemented in MATLAB. Participants included healthy controls and individuals with sub-acute mild TBI, with assessments conducted at three timepoints: 3-14 days post-injury, ~2 months, and ~4 months post-injury. Data collection occurred between 2016-2018 at the Center for Brain Recovery and Repair at the UNM Health Sciences Center.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "mild traumatic brain injury"
-    },
-    {
-      "term": "cognitive control"
-    },
-    {
-      "term": "attention"
-    },
-    {
-      "term": "continuous performance task"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "dot probe task"
-    },
-    {
-      "term": "longitudinal"
-    }
-  ],
-  "source_hash": "bae4c683d33c2a98665a8569a26e6031ff31cc5eb7175577d8f51c809332d945"
+  "source_hash": "8792d2b982644094a0e8c1ee237237f9ee0c9dcf3f553968ae6df899d2c0979b"
 }
