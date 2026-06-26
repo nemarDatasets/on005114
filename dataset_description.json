@@ -1,12 +1,18 @@
 {
-    "Name": "EEG: DPX Cog Ctl Task in Acute Mild TBI",
-    "ReferencesAndLinks": [
-        "DOI: 10.1007/s11682-019-00171-y"
-    ],
-    "Authors": [
-        "James F Cavanagh"
-    ],
-    "License": "CC0",
-    "BIDSVersion": "1.1.1",
-    "DatasetDOI": "doi:10.18112/openneuro.ds005114.v1.0.0"
+  "Name": "EEG: DPX Cog Ctl Task in Acute Mild TBI",
+  "ReferencesAndLinks": [
+    "DOI: 10.1007/s11682-019-00171-y"
+  ],
+  "Authors": [
+    "James F Cavanagh"
+  ],
+  "License": "CC0",
+  "BIDSVersion": "1.1.1",
+  "DatasetDOI": "10.82901/nemar.on005114",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005114.v1.0.0"
+    }
+  ],
+  "Version": "1.0.0"
 }
